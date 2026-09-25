@@ -1,0 +1,17 @@
+﻿__pycache__/
+*.py[cod]
+.venv/
+.idea/
+.vscode/
+
+data/raw/*
+data/processed/*
+!data/gold_eval_suite/equatorial_apollo/*.csv
+!data/gold_eval_suite/polar_high_shadow/*.csv
+*.tif
+*.img
+*.xml
+
+weights/
+outputs/*
+!outputs/ablation_reports/
