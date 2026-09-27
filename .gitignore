@@ -1,17 +1,22 @@
-﻿__pycache__/
+﻿# Environments & Virtual Envs
+__pycache__/
 *.py[cod]
 .venv/
+venv/
 .idea/
 .vscode/
 
+# Large Planetary Rasters & Binaries
 data/raw/*
 data/processed/*
-!data/gold_eval_suite/equatorial_apollo/*.csv
-!data/gold_eval_suite/polar_high_shadow/*.csv
+!data/gold_eval_suite/**/*.csv
 *.tif
 *.img
+*.raw
+*.bin
 *.xml
 
+# Model weights & temporary runs
 weights/
 outputs/*
 !outputs/ablation_reports/
